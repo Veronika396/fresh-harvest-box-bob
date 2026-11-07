@@ -1,31 +1,30 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 body {
-    background-color: #AE1332; 
-    margin: 0; 
+    background-color: #AE1332;
+    margin: 0;
     font-family: 'Manrope', sans-serif;
-    color: #ffffff;      
+    color: #ffffff;
 }
 
 .shapka {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;       
-    padding: 16px 32px;         
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
     background-color: #ffffff;
 }
 
 .shapka-links {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
 }
 
 
 .shapka-links a {
-    color: #AE1332;   
-    text-decoration: none; 
-    font-weight: 400;   
+    color: #AE1332;
+    text-decoration: none;
+    font-weight: 400;
     font-family: DM Sans;
     font-size: 14px;
 
@@ -41,120 +40,119 @@ body {
 
 
 .glavnaya-seksiya {
-    padding: 40px 96px;   
+    padding: 40px 96px;
     display: flex;
-    flex-direction: column;  
-    align-items: center;  
-    position: relative; 
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 
 .glavny-zagolovok {
-    font-size: 64px;  
-    text-align: center;  
-    font-weight: 500;    
+    font-size: 64px;
+    text-align: center;
+    font-weight: 500;
     font-family: DM Sans;
-    position: relative;  
-    z-index: 10; 
-
+    position: relative;
+    z-index: 10;
 }
 
 .tryo-bloka-v-ryad {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;    
-    width: 100%;               
+    align-items: flex-end;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    
-    align-items: flex-start; 
-    margin-top: 0;     
-    
+
+    align-items: flex-start;
+    margin-top: 0;
+
 }
 
 .blok-levy {
-    width: 320px;    
+    width: 320px;
     display: flex;
     flex-direction: column;
-    gap: 44px;            
+    gap: 44px;
     justify-content: flex-end;
     margin-top: 40px;
 }
 
 .malenky-text {
     font-size: 14px;
-    opacity: 0.8;     
+    opacity: 0.8;
     font-family: DM Sans;
     font-weight: 400;
 }
 
 
 .oval-kartinka {
-    width: 100%;    
-    height: auto;    
+    width: 100%;
+    height: auto;
 }
 
 
 .blok-centr {
-    position: relative;   
-    width: 380px;         
-     margin-top: -120px;  
-    z-index: 1;          
+    position: relative;
+    width: 380px;
+    margin-top: -120px;
+    z-index: 1;
     border: 1px solid #ffffff;
-    border-radius: 500px;  
-    padding: 12px;        
-    box-sizing: border-box;  
-    
+    border-radius: 500px;
+    padding: 12px;
+    box-sizing: border-box;
+
 }
 
 .devushka-kartinka {
     width: 100%;
     height: auto;
-    display: block;    
-    border-radius: 500px;   
+    display: block;
+    border-radius: 500px;
 }
 
 
 .knopka-shop {
-    position: absolute;  
-    bottom: -50px;    
-    left: 50%;         
-    transform: translateX(-50%); 
-    
-    width: 114px;      
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 114px;
     height: 114px;
-    border-radius: 50%;   
-    background-color: #ffffff; 
-    color: #AE1332;  
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #AE1332;
     border: none;
     font-weight: 500;
-    font-size: 28px; 
+    font-size: 28px;
     font-family: DM Sans;
-    transform: translateX(-50%) rotate(-10deg); 
-    transform-origin: center center; 
+    transform: translateX(-50%) rotate(-10deg);
+    transform-origin: center center;
 }
 
 
 .blok-pravy {
-    width: 320px; 
+    width: 320px;
     display: flex;
     flex-direction: column;
-    gap: 30px;    
+    gap: 30px;
 }
 
 
 .tegi-stroka {
     display: flex;
-    flex-wrap: wrap;   
-    gap: 8px;      
+    flex-wrap: wrap;
+    gap: 8px;
     justify-content: center;
 }
 
 
 .tag-ramka {
-    border: 1px solid rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 12px;
@@ -165,50 +163,50 @@ body {
 
 
 .bg-fruit {
-    position: absolute; 
-    z-index: 0;      
-    pointer-events: none; 
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
 }
 
 
 .fruit-banana {
-    left: 213px;  
-    top: 191px;     
-    width: 300px;   
+    left: 213px;
+    top: 191px;
+    width: 300px;
 }
 
 
 .fruit-strawberry {
-    right: 223px;   
-    top: 40px;     
-    width: 200px; 
+    right: 223px;
+    top: 40px;
+    width: 200px;
 }
 
 .seksiya-shagi {
-    background-color: #AE1332; 
-    padding: 80px 96px; 
+    background-color: #AE1332;
+    padding: 80px 96px;
     display: flex;
-    flex-direction: column;   
-    align-items: center;  
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .shagi-header {
-    text-align: center;   
-    max-width: 700px;        
-    margin-bottom: 60px;    
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 60px;
 }
 
 .shagi-zagolovok {
-    font-size: 40px;   
+    font-size: 40px;
     font-weight: 500;
-    margin-bottom: 14px; 
+    margin-bottom: 14px;
     font-family: DM Sans;
 }
 
 .shagi-podtekst {
     font-size: 14px;
-    opacity: 0.7;      
+    opacity: 0.7;
     font-weight: 400;
     font-family: DM Sans;
 }
@@ -216,25 +214,25 @@ body {
 
 .shagi-ryad {
     display: flex;
-    justify-content: space-between; 
-    width: 100%; 
-    gap: 24px; 
+    justify-content: space-between;
+    width: 100%;
+    gap: 24px;
 }
 
 
 .shag-kartochka {
-    background-color: #ffffff; 
-    border-radius: 20px;   
-    padding-bottom: 40px; 
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-bottom: 40px;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 32%;          
-    box-sizing: border-box;  
-    
+    width: 32%;
+    box-sizing: border-box;
+
     display: flex;
-    align-items: center;  
-    gap: 14px;           
+    align-items: center;
+    gap: 14px;
 }
 
 
@@ -243,9 +241,9 @@ body {
     font-weight: 400;
     font-size: 18px;
     font-family: DM Sans;
-    padding: 12px 24px;    
-    border-radius: 50px;    
-    white-space: nowrap;  
+    padding: 12px 24px;
+    border-radius: 50px;
+    white-space: nowrap;
 }
 
 
@@ -258,55 +256,56 @@ body {
 }
 
 .шаг-третий {
-    background-color: #FBB03B; 
+    background-color: #FBB03B;
 }
 
 
 .shag-opisanie {
-    color: #000000;   
+    color: #000000;
     font-size: 14px;
     font-weight: 400px;
     font-family: DM Sans;
-    margin: 0;   
+    margin: 0;
 }
+
 .seksiya-yagody {
     background-color: #AE1332;
-    padding: 60px 96px;  
+    padding: 60px 96px;
     display: flex;
-    justify-content: center;  
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .yagody-foto {
-    width: 100%;    
-    max-width: 860px; 
-    height: auto;   
-    border-radius: 24px;   
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    border-radius: 24px;
     display: block;
 }
 
 .seksiya-frukty {
     padding: 80px 96px;
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .frukty-header {
-    text-align: center;  
-    max-width: 650px;  
-    margin: 0 auto 60px auto; 
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 60px auto;
 }
 
 
 .frukty-zagolovok {
     font-size: 40px;
     font-weight: 500;
-    margin-top: 150px;       
+    margin-top: 150px;
     margin-bottom: 15px;
     font-family: 'DM Sans', sans-serif;
-    color: #ffffff;     
+    color: #ffffff;
 }
 
 
@@ -316,28 +315,28 @@ body {
     font-family: 'DM Sans', sans-serif;
     color: #ffffff;
     line-height: 1.5;
-    opacity: 0.7;    
+    opacity: 0.7;
 }
 
 .frukty-setka {
     display: flex;
-    flex-wrap: wrap;    
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-    gap: 24px;      
-    margin-bottom: 50px;  
+    gap: 24px;
+    margin-bottom: 50px;
 }
 
 
 .frukt-kartochka {
-    border-radius: 24px;       
-    padding: 30px;        
+    border-radius: 24px;
+    padding: 30px;
     width: calc(33.33% - 16px);
     box-sizing: border-box;
-    height: 380px;     
+    height: 380px;
     display: flex;
-    flex-direction: column;    
-    justify-content: space-between; 
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .frukt-nazvanie {
@@ -353,41 +352,104 @@ body {
     font-family: DM Sans;
     opacity: 0.8;
 }
+
 .frukt-kartinka {
-    max-width: 80%;   
-    max-height: 160px;   
-    object-fit: contain;   
-    margin: auto;         
+    max-width: 80%;
+    max-height: 160px;
+    object-fit: contain;
+    margin: auto;
     display: block;
 }
 
 
 .frukt-cena {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     font-weight: 500;
     font-family: DM Sans;
     font-size: 18px;
     padding: 10px 18px;
-    border-radius: 50px;       
-    align-self: flex-start; 
+    border-radius: 50px;
+    align-self: flex-start;
 }
 
 
-.frukto-strawberry  { background-color: #F8766B; } .frukto-strawberry .frukt-cena { color: #AE1332; }
-.frukto-banana      { background-color: #EDD251; } .frukto-banana .frukt-cena     { color: #AE1332; }
-.frukto-watermelon  { background-color: #9DC262; } .frukto-watermelon .frukt-cena { color: #AE1332; }
-.frukto-lime        { background-color: #BFD663; } .frukto-lime .frukt-cena       { color: #AE1332; }
-.frukto-apple       { background-color: #E93F29; } .frukto-apple .frukt-cena      { color: #AE1332; }
-.frukto-peach       { background-color: #DB4F4B; } .frukto-peach .frukt-cena      { color: #AE1332; }
-.frukto-plums       { background-color: #9B5366; } .frukto-plums .frukt-cena      { color: #AE1332; }
-.frukto-orange      { background-color: #F47F4C; } .frukto-orange .frukt-cena     { color: #AE1332; }
-.frukto-kiwi        { background-color: #98B37E; } .frukto-kiwi .frukt-cena       { color: #AE1332; }
+.frukto-strawberry {
+    background-color: #F8766B;
+}
+
+.frukto-strawberry .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-banana {
+    background-color: #EDD251;
+}
+
+.frukto-banana .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-watermelon {
+    background-color: #9DC262;
+}
+
+.frukto-watermelon .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-lime {
+    background-color: #BFD663;
+}
+
+.frukto-lime .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-apple {
+    background-color: #E93F29;
+}
+
+.frukto-apple .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-peach {
+    background-color: #DB4F4B;
+}
+
+.frukto-peach .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-plums {
+    background-color: #9B5366;
+}
+
+.frukto-plums .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-orange {
+    background-color: #F47F4C;
+}
+
+.frukto-orange .frukt-cena {
+    color: #AE1332;
+}
+
+.frukto-kiwi {
+    background-color: #98B37E;
+}
+
+.frukto-kiwi .frukt-cena {
+    color: #AE1332;
+}
 
 
 .knopka-order {
     width: 100px;
     height: 100px;
-    border-radius: 50%;      
+    border-radius: 50%;
     background-color: #9DC262;
     color: #ffffff;
     border: none;
@@ -395,71 +457,71 @@ body {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
-    display: block;     
-    margin: 40px auto 0 auto;  
-    display: flex;          
-    justify-content: center; 
-    align-items: center;     
-    gap: 4px;        
+    display: block;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
     transform: translateX(-50%) rotate(-10deg);
-    transform-origin: center center; 
+    transform-origin: center center;
 }
 
 .order-strela {
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .seksiya-covered {
     background-color: #AE1332;
-    padding: 100px 96px;    
+    padding: 100px 96px;
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
+    flex-direction: column;
+    align-items: center;
 }
 
 .covered-zagolovok {
-    font-size: 64px;         
+    font-size: 64px;
     font-weight: 500;
     font-family: DM Sans;
     text-align: center;
-    margin-bottom: 0;       
-    position: relative;      
-    z-index: 5;        
+    margin-bottom: 0;
+    position: relative;
+    z-index: 5;
 }
 
 .covered-kartinki-ryad {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     width: 100%;
-    gap: 30px;      
-    
+    gap: 30px;
 
-    margin-top: -40px;   
-    z-index: 1;                
+
+    margin-top: -40px;
+    z-index: 1;
     gap: 24px;
 }
 
 
 .covered-blok-melon,
 .covered-blok-berries {
-    width: 49%;               
+    width: 49%;
 }
 
 .img-melon {
     width: 800px;
-    height: 502px;    
+    height: 502px;
     display: block;
-    border-radius: 30px; 
-    object-fit: cover;  
+    border-radius: 30px;
+    object-fit: cover;
 }
 
 .img-blueberry {
     width: 450px;
     height: 502px;
-    max-width: 100%;   
+    max-width: 100%;
     display: block;
-    border-radius: 30px;       
-    object-fit: cover; 
+    border-radius: 30px;
+    object-fit: cover;
     margin-left: 200px;
 }
 
@@ -467,72 +529,73 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-family: DM Sans;
-    text-align: center;   
-    max-width: 500px;      
-    margin-top: 80px; 
+    text-align: center;
+    max-width: 500px;
+    margin-top: 80px;
 }
 
 .seksiya-podpiska {
-    background-color: #AE1332; 
-    padding: 100px 96px;     
+    background-color: #AE1332;
+    padding: 100px 96px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .email-korobka {
-    display: flex;        
-    align-items: center;   
-    
+    display: flex;
+    align-items: center;
+
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 100px;     
-    padding: 6px;          
-    background: transparent;  
-    
+    border-radius: 100px;
+    padding: 6px;
+    background: transparent;
+
     width: 100%;
-    max-width: 600px;       
-    box-sizing: border-box;    
+    max-width: 600px;
+    box-sizing: border-box;
 }
 
 .email-input {
-    flex-grow: 1;    
-    background: transparent;  
-    border: none;            
-    outline: none;     
-    
-    color: #ffffff;       
-    padding-left: 24px;   
-    font-size: 16px;           
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: #ffffff;
+    padding-left: 24px;
+    font-size: 16px;
     font-family: 'DM Sans', sans-serif;
 }
 
 .email-input::placeholder {
     color: #ffffff;
-    opacity: 0.6;    
+    opacity: 0.6;
 }
 
 .email-btn {
-    background-color: #9DC262; 
-    color: #ffffff;      
+    background-color: #9DC262;
+    color: #ffffff;
     border: none;
-    border-radius: 100px;   
-    
-    padding: 14px 45px;    
-    
+    border-radius: 100px;
+
+    padding: 14px 45px;
+
     font-size: 16px;
     font-weight: 500;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
-    flex-shrink: 0;  
-    
+    flex-shrink: 0;
+
 }
+
 .podval {
-    background-color: #ffffff; 
-    padding: 60px 96px;        
-    
+    background-color: #ffffff;
+    padding: 60px 96px;
+
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;      
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .podval-kolonka {
@@ -541,49 +604,49 @@ body {
 }
 
 .podval-left {
-    gap: 20px;            
-    width: 250px;      
+    gap: 20px;
+    width: 250px;
 }
 
 .podval-foto-wrap {
     width: 100%;
-    height: 140px;     
-    border-radius: 100px;      
-    overflow: hidden;      
+    height: 140px;
+    border-radius: 100px;
+    overflow: hidden;
 }
 
 .podval-girl-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
 .podval-logo-block {
     display: flex;
-    align-items: center;    
-    gap: 8px;            
+    align-items: center;
+    gap: 8px;
 }
 
 .podval-logo-icon {
-    width: 16px;           
+    width: 16px;
     height: 16px;
 }
 
 .podval-logo-text {
-    color: #AE1332;        
+    color: #AE1332;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.5px;
 }
 
 .podval-center {
-    flex-direction: row; 
+    flex-direction: row;
     gap: 24px;
-    margin-top: 60px;        
+    margin-top: 60px;
 }
 
 .podval-center a {
-    color: #AE1332;     
+    color: #AE1332;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -591,23 +654,23 @@ body {
 }
 
 .podval-right {
-    align-items: flex-end;  
-    gap: 20px;         
+    align-items: flex-end;
+    gap: 20px;
     text-align: right;
 }
 
 .podval-socseti {
     display: flex;
-    gap: 12px;      
+    gap: 12px;
 }
 
 .soc-btn {
     width: 40px;
     height: 40px;
-    border: 1px solid #AE1332; 
-    border-radius: 8px;      
+    border: 1px solid #AE1332;
+    border-radius: 8px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     transition: opacity 0.2s;
 }
@@ -627,9 +690,110 @@ body {
 /* Текст адреса */
 .podval-address {
     color: #AE1332;
-    font-style: normal;   
+    font-style: normal;
     font-size: 14px;
     line-height: 1.5;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
+}
+
+.burger {
+    display: none;
+}
+
+
+@media (width: 375px) {
+    .shapka {
+        width: 100%;
+        justify-content: center;
+        gap: 140px;
+        padding: 0px;
+        height: 50px;
+    }
+
+    .shapka-links {
+        display: none;
+    }
+
+    .shapka-basket {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .glavny-zagolovok {
+        font-size: 28px;
+        width: 335px;
+    }
+
+    .glavny-zagolovok br {
+        display: none;
+    }
+
+    .fruit-banana {
+        width: 65px;
+        left: 13px;
+        top: 141px;
+    }
+
+    .fruit-strawberry {
+        width: 56px;
+        height: 56px;
+        top: 50px;
+        right: 20px;
+    }
+
+    .tryo-bloka-v-ryad {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .blok-levy {
+        order: 2;
+    }
+
+    .blok-centr {
+        order: 1;
+        width: 355px;
+        position: relative;
+        top: 20px;
+    }
+
+    .blok-pravy {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tegi-stroka {
+        order: 1;
+    }
+
+    .oval-kartinka {
+        order: 2;
+    }
+
+    .devushka-kartinka {
+        width: 335px;
+    }
+
+    .knopka-shop {
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .tag-ramka {
+        padding: 0px;
+        width: 125px;
+        height: 38px;
+        background: none;
+        color: white;
+    }
 }
